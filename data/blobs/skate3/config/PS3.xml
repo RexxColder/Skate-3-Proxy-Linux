@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+    <blaze>
+        <redirector>
+            <host>127.0.0.1</host>
+            <port>42127</port>
+        </redirector>
+    </blaze>
+    <service name="skate3-ps3">
+        <version>2.0</version>
+        <news-url>http://downloads.skate.online.ea.com/skate3/webkit/PS3/English/m/SkateFeed</news-url>
+    </service>
+</configuration>

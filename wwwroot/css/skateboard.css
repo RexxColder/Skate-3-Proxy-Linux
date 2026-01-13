@@ -1,0 +1,429 @@
+﻿/* Generic Elements (Start) */
+body {
+    background-color: darkgrey;
+    padding: 0 215px 0 215px;
+    margin: 0px;
+    font-family: "Futura Std Medium";
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    letter-spacing: 1pt;
+    width: 850px;
+    height: 720px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    border: 0;
+}
+
+p {
+    margin: 0px;
+}
+
+table {
+    width: 810px;
+    margin: 10px 0px 0px 0px;
+    border-collapse: collapse;
+}
+
+th {
+    color: #42556C;
+    font-size: 16px;
+}
+
+tr {
+    color: #617587;
+    height: 40px;
+    font-size: 21px;
+}
+
+td {
+    border-color: #3D6C9C;
+    border-width: 1px 0 0 0;
+    border-style: solid;
+}
+
+.hr {
+    width: 90%;
+    height: 2px;
+    margin: 5px auto;
+    background-color: #3D6C9C;
+    border-color: #3D6C9C;
+    color: #3D6C9C;
+    display: block;
+}
+
+.content {
+    background-image: url('../images/background.png');
+    padding: 10px 20px;
+    width: 810px;
+    height: 598px;
+    border-color: #3D6C9C;
+    border-width: 2px 0 0 0;
+    border-style: solid;
+}
+
+.card {
+    background-color: #2C3C56;
+    color: #BCD9F5;
+    border: 2px solid #45566C;
+}
+
+.isSelected {
+    background-color: #172538;
+    color: white;
+    border: 2px solid #89DDFF;
+}
+
+.floatLeft {
+    float: left;
+}
+
+.floatRight {
+    float: right;
+}
+
+.padLeft {
+    margin-left: 10px;
+}
+
+.padRight {
+    margin-right: 10px;
+}
+
+.textAlignCenter {
+    text-align: center;
+}
+
+.tdPadLeft {
+    padding-left: 20px;
+}
+/* Generic Elements (End) */
+
+/* Header/Footer (Start) */
+.header,
+.footer
+{
+    background-color: black;
+    color: white;
+    width: 830px;
+    height: 30px;
+    padding: 10px 10px;
+    font-size: 21px;
+    letter-spacing: 1pt;
+}
+
+.headerText {
+    float: left;
+    padding-top: 4px;
+}
+
+.footer {
+    position: absolute;
+    top: 668px;
+    border-color: #3D6C9C;
+    border-width: 2px 0 0 0;
+    border-style: solid;
+    line-height: 50px;
+}
+/* Header/Footer (End) */
+
+/* Pagination (Start) */
+.pagination {
+    height: 45px;
+}
+
+.card-pagination {
+    width: 395px;
+    height: 40px;
+    font-size: 21px;
+}
+
+.card-pagination > p {
+    height: 100%;
+    margin-top: 9px;
+}
+
+#paginationPrevious {
+    width: 47%;
+    visibility: hidden;
+}
+
+.card-pagination-previous {
+    float: left;
+}
+
+.card-pagination-previous > p {
+    margin-left: 14px;
+}
+
+.card-pagination-next {
+    float: right;
+}
+
+#paginationNext {
+    width: 47%;
+    visibility: hidden;
+}
+
+.card-pagination-next > p {
+    float: right;
+    margin-right: 14px;
+}
+/* Pagination (End) */
+
+/* Leaderboards (Start) */
+.card-leaderboard-category {
+    width: 450px;
+    height: 75px;
+    margin: 10px auto;
+    font-size: 28px;
+    line-height: 75px;
+    display: block;
+}
+
+.card-leaderboard-category > img {
+    margin: 14px;
+    float: left;
+}
+
+.myRankFooter {
+    width: 806px;
+    height: 45px;
+    line-height: 45px;
+    color: #A9B8C7;
+    font-size: 21px;
+    margin-top: 25px;
+}
+
+.myRankFooter > div {
+    float: left;
+    height: 100%;
+}
+/* Leaderboards (End) */
+
+/* SkateFeed (Start) */
+.skateFeedLeftContent {
+    width: 55%;
+    display: inline-block;
+    border: 0;
+    margin: 0;
+}
+
+.skateFeedRightContent {
+    width: 44%;
+    display: inline-block;
+    border: 0;
+    margin: 0;
+}
+
+.card-news-item {
+    height: 70px;
+    margin: 10px auto;
+    font-size: 16px;
+    line-height: 18px;
+    display: block;
+}
+
+.card-news-item > img {
+    margin: 10px;
+    float: left;
+}
+
+.card-news-stats {
+    position: absolute;
+    top: 102px;
+    left: 695px;
+    width: 325px;
+    height: 420px;
+    padding: 10px;
+    font-size: 18px;
+    line-height: 18px;
+    display: block;
+}
+
+.card-news-stats-item {
+    height: 21px;
+    line-height: 21px;
+    background-color: #172538;
+    margin: 3px 0px;
+}
+
+.card-news-stats-royalties {
+    background-color: #172538;
+}
+
+.card-news-stats-royalties > img {
+    margin-top: 10px;
+}
+
+.card-news-stats .myProgress {
+    height: 75px;
+}
+
+.card-news-stats .community {
+    height: 115px;
+}
+
+.card-news-stats .royalties {
+    height: 200px;
+}
+
+.card-news-item > p {
+    margin-top: 10px;
+}
+
+.progressBar {
+    height: 17px;
+    width: 325px;
+    margin: 8px 0px;
+}
+
+.progressBarMyDecks {
+    position: absolute;
+    top: 32px;
+    left: 155px;
+}
+
+.progressBarMyDecksStar {
+    position: absolute;
+    top: 32px;
+    left: 310px;
+}
+
+.progressBarCommunity {
+    position: absolute;
+    top: 119px;
+    left: 10px;
+}
+
+.progressBarCommunityStar {
+    position: absolute;
+    top: 119px;
+    left: 310px;
+}
+
+.progressBarBorder {
+    border-color: #89DDFF;
+    border-style: solid;
+    border-width: 1px 0px;
+    background-color: #172538;
+    height: 15px;
+    margin: 0px 10px;
+}
+
+.progressBarFill {
+    background-color: #89DDFF;
+    height: 15px;
+}
+/* SkateFeed (End) */
+
+/* Users (Start) */
+.userProfileQuote {
+    width: 450px;
+    height: 50px;
+    display: block;
+    float: left;
+    margin-top: 20px;
+    color: black;
+    background-color: white;
+    font-size: 16px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.userProfileOptions {
+    padding-top: 80px;
+}
+
+.card-user-profile {
+    width: 405px;
+    height: 50px;
+    display: block;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    font-size: 24px;
+    line-height: 50px;
+}
+
+.card-user-profile-picture {
+    width: 350px;
+    height: 450px;
+    display: block;
+    float: right;
+}
+
+.card-user-profile-picture > img {
+    margin: 75px 62px;
+}
+
+.closing-quote-block {
+    position: absolute;
+    top: 122px;
+    left: 685px;
+}
+/* Users (End) */
+
+/* Tab Bars (Start) */
+.tabBar {
+    background-color: black;
+    height: 40px;
+    font-size: 21px;
+}
+
+.tabBar > img {
+    margin: 0px 5px;
+}
+
+.tab {
+    background-color: #1E2B3D;
+    color: #525F6A;
+    float: left;
+    margin: 0px 10px;
+    height: 40px;
+}
+
+.tab > p {
+    text-align: center;
+    margin-top: 8px;
+}
+
+.tab.tabSelected {
+    background-color: #1C2B44;
+    color: #9BDEEC;
+    /* top right bottom left */
+    border-width: 2px 2px 0px 2px;
+    border-style: solid solid none solid;
+    border-color: #3D6C9C #3D6C9C #000 #3D6C9C;
+}
+
+#tabTop,
+#tabNews,
+#tabSkater,
+#tabStats {
+    width: 135px;
+}
+
+#tabProfileContent {
+    width: 185px;
+}
+
+#tabTrophies {
+    width: 210px;
+}
+
+#tabFriends,
+#tabContent {
+    width: 250px;
+}
+
+#tabMyRank,
+#tabContacts {
+    width: 299px;
+}
+/* Tab Bars (End) */

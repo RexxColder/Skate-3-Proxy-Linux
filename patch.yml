@@ -1,0 +1,16 @@
+# RPCS3 SSL Bypass Patch for Skate 3
+# Place this file or append its content to your RPCS3 patches.yml
+# (Usually located in ~/.config/rpcs3/patches.yml or ~/.cache/rpcs3/patches.yml)
+
+PPU-665cd2e283d5a570081d0545934338e55be88d37: # BLUS30464 [v01.05]
+  "Disable SSL Verification":
+    - [ byte, 0x00a78910, 0x38, 0x60, 0x00, 0x00 ] # li r3, 0
+    - [ byte, 0x00a78914, 0x4e, 0x80, 0x00, 0x20 ] # blr
+
+PPU-5321683457bd7480582d0545934338e55be88d37: # BLES00760 [v01.05]
+  "Disable SSL Verification":
+    - [ byte, 0x00a78a20, 0x38, 0x60, 0x00, 0x00 ] # li r3, 0
+    - [ byte, 0x00a78a24, 0x4e, 0x80, 0x00, 0x20 ] # blr
+
+# NOTE: The hashes above are examples. You can find your game's PPU Hash
+# by right-clicking the game in RPCS3 -> Properties.

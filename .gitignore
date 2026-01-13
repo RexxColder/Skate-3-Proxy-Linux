@@ -1,0 +1,28 @@
+# .gitignore for Skate 3 Proxy (Linux Native)
+# --- Binaries & Build ---
+Skateboard3Server.Host
+*.so
+bin/
+obj/
+
+# --- Database & Logs ---
+*.db
+*.db-shm
+*.db-wal
+logs/
+*.log
+
+# --- Python ---
+__pycache__/
+*.pyc
+
+# --- OS/Editor ---
+.DS_Store
+.vscode/
+.idea/
+*.bak
+
+# --- Environment ---
+.env
+login.json
+patch.yml
